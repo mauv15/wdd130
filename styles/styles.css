@@ -1,0 +1,27 @@
+nav {
+    background-color: #001739;
+    padding: 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: #001739;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #001739;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
+
