@@ -1,0 +1,61 @@
+header{
+    background-color: #2C4063;
+}
+
+main {
+    background-color: #C2BBAE;
+}
+
+footer {
+    background-color: #809AC6;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 2%;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: relative;
+}
+
+article {
+    position: relative;
+}
+
+.hero article img {
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+section h2 {
+    position: relative;
+}
+
+section p {
+    position: relative;
+}
+
+section img{
+    position: relative;
+    width: 30%;
+    height: auto;
+}
+
+footer img {
+    width: 5%;
+    height: auto;
+}
