@@ -1,21 +1,82 @@
-header{
+body{
+    background-color: #736957 
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
     background-color: #2C4063;
+    padding: 10px 5%;
 }
 
-main {
-    background-color: #C2BBAE;
+header img {
+    width: 100px; /* Adjust logo size */
 }
 
-footer {
-    background-color: #809AC6;
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: #ffff;
-    padding: 2%;
+    color: white;
+    padding: 10px 20px;
+    background: #4B6A99;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
+nav a:hover {
+    background: #809AC6;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+    background: #C2BBAE;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.history h2 {
+    grid-column: span 3;
+}
+
+.history img {
+    width: 300px;
+    background: #809AC6;
+    border-radius: 10px;
+}
+
+.adventure {
+    text-align: center;
+    background-color: #C2BBAE;
+}
+
+.adventure-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adventure-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
 
 .hero {
     position: relative;
@@ -28,17 +89,35 @@ nav a {
 }
 
 .hero h1 {
-    position: relative;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-family: "Oswald", sans-serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    align-items: flex-start;
 }
 
-article {
-    position: relative;
+
+.hero p {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-25%, -25%);
+    color: white;
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    align-items: flex-start;
 }
 
 .hero article img {
     float: right;
     width: 30%;
     height: auto;
+    margin-left: 10px;
 }
 
 section h2 {
@@ -49,13 +128,21 @@ section p {
     position: relative;
 }
 
-section img{
-    position: relative;
-    width: 30%;
-    height: auto;
+footer {
+    background: #2C4063;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+    color: white;
+}
+
+footer nav {
+    display: flex;
+    gap: 10px;
 }
 
 footer img {
-    width: 5%;
+    width: 30px;
     height: auto;
 }
