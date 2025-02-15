@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about page</title>
+    <title>main page</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,13 +25,25 @@
         <div class="hero">
             <img src="images/rafting12_1024.jpg" alt="rafting image">
             <h1>SPLASH</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sed animi nobis voluptates mollitia sunt, cum ab. Quos, pariatur sunt.</p>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fuga libero, aut, cum eaque laboriosam a at dolores odio exercitationem quam, asperiores quia eius consequuntur quaerat aperiam ad maiores earum eligendi iusto sint reprehenderit sapiente deleniti maxime? Aliquid, corrupti adipisci.</p>
-            <img src="images/Happy-Rafter.jpg" alt="Rafter image">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga eligendi voluptate? Nulla soluta distinctio natus ratione, accusantium inventore reiciendis ipsum nobis voluptatibus non sint asperiores temporibus pariatur, consequatur neque sequi tempore harum qui modi nam nihil maiores provident! Aperiam.</p>
+        <section class="newsletter">
+            <form action="#" method="post">
+                <h2>Subscribe to Our Newsletter</h2>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        <section class="call-to-action">
+            <h2>Ready for an Adventure?</h2>
+            <p>Join us on an exhilarating whitewater rafting trip! Click below to explore our available trips and book your adventure today.</p>
+            <a href="trips.html" class="cta-button">View Trips</a>
         </section>
         <section class="adventure">
             <h2>Adventure Awaits You!</h2>

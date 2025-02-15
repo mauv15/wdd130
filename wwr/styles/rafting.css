@@ -29,6 +29,18 @@ nav a {
     transition: background 0.3s;
 }
 
+.contact p a {
+    background-color: #2C4063;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 20%;
+    transition: background 0.3s;
+}
+
 p a {
     text-decoration: none;
     color: white;
@@ -38,7 +50,7 @@ p a {
     transition: background 0.3s;
 }
 
-nav a:hover {
+p a:hover {
     background: #809AC6;
 }
 
@@ -182,7 +194,6 @@ form {
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
-
 }
 label {
     font-weight: bold;
@@ -201,9 +212,115 @@ button {
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
+    max-width: 20%;
+    transition: background 0.3s;
 }
 button:hover {
     background-color: #809AC6;
+    transition: background 0.3s;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C2BBAE;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.call-to-action a {
+    display: flex;
+    background-color: #2C4063;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 20%;
+    transition: background 0.3s;
+}
+
+.call-to-action a:hover {
+    background-color: #809AC6;
+    transition: background 0.3s;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C2BBAE;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.cta a{
+    display: flex;
+    background-color: #2C4063;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 20%;
+    transition: background 0.3s;
+}
+
+.cta a:hover {
+    background-color: #809AC6;
+    transition: background 0.3s;
+}
+
+.trip-table {
+    text-align: center;
+    background-color: #C2BBAE;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip-table h2 {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #4B6A99;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.trip-table th, .trip-table td {
+    padding: 12px;
+    border: 1px solid #809AC6;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #2C4063;
+    color: white;
+}
+
+.trip-table tr:hover {
+    background-color: #809AC6;
+    color: white;
+    transition: 0.3s;
 }
 
 footer {
@@ -215,9 +332,15 @@ footer {
     color: white;
 }
 
-footer nav {
+footer nav a {
     display: flex;
     gap: 10px;
+    transition: background 0.3s;
+}
+
+footer nav a:hover{
+    background-color: #809AC6;
+    transition: background 0.3s;
 }
 
 footer img {
